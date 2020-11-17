@@ -1,0 +1,6 @@
+[submodule "GOG-Galaxy-Export-Script"]
+	path = GOG-Galaxy-Export-Script
+	url = https://github.com/AB1908/GOG-Galaxy-Export-Script.git
+[submodule "GOG-Galaxy-HTML5-exporter"]
+	path = GOG-Galaxy-HTML5-exporter
+	url = https://github.com/Varstahl/GOG-Galaxy-HTML5-exporter.git
