@@ -35,5 +35,8 @@ Write-Host "Finishing touches."
 $html = Get-Content $outputPath\gogExport.html
 $html = $html.Replace('<header id="controls">', '<header id="controls" class="visible">')
 Set-Content $outputPath\gogExport.html $html
+$js = Get-Content $outputPath\templates\script.js
+$js = $js.Replace("overlay.style.cursor = 'none';", "overlay.style.cursor = 'pointer';")
+Set-Content $outputPath\templates\script.js $js
 
 Set-Location $oldPwd
